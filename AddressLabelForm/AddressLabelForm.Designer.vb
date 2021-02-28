@@ -48,7 +48,7 @@ Partial Class AddressLabelForm
         '
         'DisplayButton
         '
-        Me.DisplayButton.Location = New System.Drawing.Point(9, 303)
+        Me.DisplayButton.Location = New System.Drawing.Point(287, 225)
         Me.DisplayButton.Margin = New System.Windows.Forms.Padding(2)
         Me.DisplayButton.Name = "DisplayButton"
         Me.DisplayButton.Size = New System.Drawing.Size(88, 53)
@@ -59,7 +59,7 @@ Partial Class AddressLabelForm
         '
         'ClearButton
         '
-        Me.ClearButton.Location = New System.Drawing.Point(102, 303)
+        Me.ClearButton.Location = New System.Drawing.Point(379, 225)
         Me.ClearButton.Margin = New System.Windows.Forms.Padding(2)
         Me.ClearButton.Name = "ClearButton"
         Me.ClearButton.Size = New System.Drawing.Size(88, 53)
@@ -70,7 +70,7 @@ Partial Class AddressLabelForm
         '
         'ExitButton
         '
-        Me.ExitButton.Location = New System.Drawing.Point(502, 303)
+        Me.ExitButton.Location = New System.Drawing.Point(471, 226)
         Me.ExitButton.Margin = New System.Windows.Forms.Padding(2)
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(88, 53)
@@ -215,23 +215,24 @@ Partial Class AddressLabelForm
         Me.OutputGroupBox.Controls.Add(Me.AddressLabel)
         Me.OutputGroupBox.Location = New System.Drawing.Point(231, 13)
         Me.OutputGroupBox.Name = "OutputGroupBox"
-        Me.OutputGroupBox.Size = New System.Drawing.Size(328, 266)
+        Me.OutputGroupBox.Size = New System.Drawing.Size(328, 174)
         Me.OutputGroupBox.TabIndex = 16
         Me.OutputGroupBox.TabStop = False
         Me.OutputGroupBox.Text = "Address Label"
         '
         'AddressLabel
         '
+        Me.AddressLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AddressLabel.Location = New System.Drawing.Point(6, 28)
         Me.AddressLabel.Name = "AddressLabel"
-        Me.AddressLabel.Size = New System.Drawing.Size(221, 198)
+        Me.AddressLabel.Size = New System.Drawing.Size(230, 124)
         Me.AddressLabel.TabIndex = 0
         '
         'AddressLabelForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(600, 366)
+        Me.ClientSize = New System.Drawing.Size(567, 288)
         Me.Controls.Add(Me.OutputGroupBox)
         Me.Controls.Add(Me.InputGroupBox)
         Me.Controls.Add(Me.ExitButton)

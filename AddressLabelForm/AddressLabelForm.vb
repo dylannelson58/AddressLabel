@@ -1,13 +1,19 @@
 ﻿Option Strict On
 Option Explicit On
 
+'Dylan Nelson
+'RCET0265
+'Spring 2021
+'Address Label Program
+'https://github.com/dylannelson58
+
 Public Class AddressLabelForm
     Private Sub DisplayButton_Click(sender As Object, e As EventArgs) Handles DisplayButton.Click
         ValidateFields()
 
-        AddressLabel.Text = $"{FirstNameTextBox.Text}" & $" {LastNameTextBox.Text}" & vbNewLine
-        AddressLabel.Text = $"{StreetAddressTextBox.Text}" & vbNewLine
-        AddressLabel.Text = $"{CityTextBox.Text}, " & $"{StateTextBox.Text} " & $"{ZipTextBox.Text}"
+        AddressLabel.Text = $"{FirstNameTextBox.Text}" & $" {LastNameTextBox.Text}" & vbNewLine &
+        $"{StreetAddressTextBox.Text}" & vbNewLine &
+        $"{CityTextBox.Text}, " & $"{StateTextBox.Text} " & $"{ZipTextBox.Text}"
 
     End Sub
     Private Sub AddressLabelForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
