@@ -48,10 +48,10 @@ Partial Class AddressLabelForm
         '
         'DisplayButton
         '
-        Me.DisplayButton.Location = New System.Drawing.Point(287, 225)
+        Me.DisplayButton.Location = New System.Drawing.Point(287, 224)
         Me.DisplayButton.Margin = New System.Windows.Forms.Padding(2)
         Me.DisplayButton.Name = "DisplayButton"
-        Me.DisplayButton.Size = New System.Drawing.Size(88, 53)
+        Me.DisplayButton.Size = New System.Drawing.Size(88, 55)
         Me.DisplayButton.TabIndex = 6
         Me.DisplayButton.Text = "Display"
         Me.ToolTip1.SetToolTip(Me.DisplayButton, "Displays the Mailing address")
@@ -59,10 +59,10 @@ Partial Class AddressLabelForm
         '
         'ClearButton
         '
-        Me.ClearButton.Location = New System.Drawing.Point(379, 225)
+        Me.ClearButton.Location = New System.Drawing.Point(379, 224)
         Me.ClearButton.Margin = New System.Windows.Forms.Padding(2)
         Me.ClearButton.Name = "ClearButton"
-        Me.ClearButton.Size = New System.Drawing.Size(88, 53)
+        Me.ClearButton.Size = New System.Drawing.Size(88, 55)
         Me.ClearButton.TabIndex = 7
         Me.ClearButton.Text = "Clear"
         Me.ToolTip1.SetToolTip(Me.ClearButton, "Clears all fields")
@@ -70,10 +70,10 @@ Partial Class AddressLabelForm
         '
         'ExitButton
         '
-        Me.ExitButton.Location = New System.Drawing.Point(471, 226)
+        Me.ExitButton.Location = New System.Drawing.Point(471, 224)
         Me.ExitButton.Margin = New System.Windows.Forms.Padding(2)
         Me.ExitButton.Name = "ExitButton"
-        Me.ExitButton.Size = New System.Drawing.Size(88, 53)
+        Me.ExitButton.Size = New System.Drawing.Size(88, 55)
         Me.ExitButton.TabIndex = 8
         Me.ExitButton.Text = "Exit"
         Me.ToolTip1.SetToolTip(Me.ExitButton, "Exits the program")
